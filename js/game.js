@@ -8,8 +8,8 @@ gameScene.preload = function(){
 
 gameScene.create = function(){
     //background
-    let bg = this.add.sprite(0, 0,'background');
-    bg.setPosition(640/2,360/2);
+   // let bg = this.add.sprite(0, 0,'background');
+   // bg.setPosition(640/2,360/2);
 
     //player
     let player = this.add.sprite(50,180,'player');
